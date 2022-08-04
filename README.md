@@ -19,9 +19,15 @@ Season
 Episode
 Michael count (count of Michaels line in this episode).
 As for my first visualisation “‘that’s what she said’ line” I used ‘season’ as column and ‘episode’ and ‘character’ as rows. To separate Michael from other characters, I’ve made a set with this character and used it as a marks. The visualisation is a Gantt one.
+
 <img width="620" alt="Screenshot 2022-08-04 at 17 30 42" src="https://user-images.githubusercontent.com/46090129/182814212-21831223-727d-4c64-8b3d-63f251f9c9d3.png">
+
 For the second visualisation - “Michael appearance during the show” I used ‘Season’ as a column, and sum of Michael lines for the seasons with sum of US viewers as a rows. Also I’m marking median IMBd rating for the each season. The plot type is dual lines.
+
 <img width="555" alt="Screenshot 2022-08-04 at 17 32 04" src="https://user-images.githubusercontent.com/46090129/182814446-d8440854-7674-45e1-9153-faa49017918b.png">
+
 For the last visualisation I’ve made text visualisations using “character” attribute from the ‘the-office-lines’ dataset.
-![Uploading Screenshot 2022-08-04 at 17.32.30.png…]()
+<img width="610" alt="Screenshot 2022-08-04 at 17 32 30" src="https://user-images.githubusercontent.com/46090129/182814697-ce5692e6-67b6-4f5c-90b3-248ea891a7e9.png">
+
+
 
