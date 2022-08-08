@@ -11,19 +11,32 @@ First dataset providing spoken text lines during the show for all characters. Th
   <li>season</li>
   <li>episode_number</li>
 </ul>
-While working with this dataset I have found that some eposides have been missing, but amount of the lost episodes is small enough for continue working with this dataset.
-Second dataset gibe us more general information, such as title of the episode, director, writers, original air date. The attributes for this dataset are:
-season, episode number of season, episode number in series, title of the episode, director, writers, original air date, production coded, US viewers on orignal air date
-As for the third dataset it's pretty much the same as the second one this dataset providing general information. The only attributes, that we are looking for is Average IMDd rating.
-For connection of all of those dataset I joined using two attributes - 'season' and 'episode number'
-Because data, that have been provided can’t be directly used for the questions,that I want to answer,I had to preprocessed it. Because I wanted to see the appearance of the famous Michael Scott line ‘That’s what she said’ during the show, I had to store in which episodes are this line appeared and who said that with use of first dataset. As a result we have dataset that provide to us every appearance of this line during the show with next attributes:
-season
-episode
-character. 
+While working with this dataset I have found that some eposides have been missing, but amount of the lost episodes is small enough for continue working with this dataset. </br>
+Second dataset gibe us more general information, such as title of the episode, director, writers, original air date.The attributes for this dataset are:
+<ul>
+  <li>season</li>
+  <li>episode number of season</li>
+  <li> episode number in series</li>
+  <li>title of the episode</li>
+  <li>director</li>
+  <li>writers</li>
+  <li>original air date</li>
+  <li>production coded</li>
+  <li>US viewers on orignal air date</li>
+</ul>
+As for the third dataset it's pretty much the same as the second one this dataset providing general information. The only attributes, that we are looking for is **Average IMDd rating**.
+For connection of all of those dataset I joined using two attributes - ***'season***' and ***'episode number'*** <br>
+Because data, that have been provided can’t be directly used for the questions,that I want to answer,I had to preprocessed it. Because I wanted to see the appearance of the famous Michael Scott line ***‘That’s what she said’*** during the show, I had to store in which episodes are this line appeared and who said that with use of first dataset. As a result we have dataset that provide to us every appearance of this line during the show with next attributes:
+<ul>
+  <li>season</li>
+  <li>episode</li>
+  <li> character</li>
+</ul>. 
 Also using first dataset, I have counted amount of lines from Michael Scott during the show. As a result I had dataset with next attributes:
-Season 
-Episode
-Michael count (count of Michaels line in this episode).
+<ul>
+  <li>season</li>
+  <li>episode</li>
+  <li> Michael count (count of Michaels line in this episode)</li>
 As for my first visualisation “‘that’s what she said’ line” I used ‘season’ as column and ‘episode’ and ‘character’ as rows. To separate Michael from other characters, I’ve made a set with this character and used it as a marks. The visualisation is a Gantt one.
 
 <img width="620" alt="Screenshot 2022-08-04 at 17 30 42" src="https://user-images.githubusercontent.com/46090129/182814212-21831223-727d-4c64-8b3d-63f251f9c9d3.png">
