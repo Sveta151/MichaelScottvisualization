@@ -25,8 +25,8 @@ Second dataset gibe us more general information, such as title of the episode, d
   <li>US viewers on orignal air date</li>
 </ul>
 As for the third dataset it's pretty much the same as the second one this dataset providing general information. The only attributes, that we are looking for is <strong>Average IMDd rating</strong>.
-For connection of all of those dataset I joined using two attributes - ***'season***' and ***'episode number'*** <br>
-Because data, that have been provided can’t be directly used for the questions,that I want to answer,I had to preprocessed it. Because I wanted to see the appearance of the famous Michael Scott line ***‘That’s what she said’*** during the show, I had to store in which episodes are this line appeared and who said that with use of first dataset. As a result we have dataset that provide to us every appearance of this line during the show with next attributes:
+For connection of all of those dataset I joined using two attributes -<em><strong>'season'</strong></em> and <em><strong>'episode number'</strong></em> <br>
+Because data, that have been provided can’t be directly used for the questions,that I want to answer,I had to preprocessed it. Because I wanted to see the appearance of the famous Michael Scott line <em><strong>‘That’s what she said’</strong></em> during the show, I had to store in which episodes are this line appeared and who said that with use of first dataset. As a result we have dataset that provide to us every appearance of this line during the show with next attributes:
 <ul>
   <li>season</li>
   <li>episode</li>
