@@ -1,10 +1,16 @@
 # MichaelScottvisualization
 This is visualisation of the character from the tv show "The Office" - "Michael Scott"
 
-I've decided to analyze main character of the great show - ‘Michael Scott”
-For the next visualizations I have used few datasets, that I get from kaggle.
+I've decided to analyze main character of the great show - ‘Michael Scott”<br>
+For the next visualizations I have used few datasets, that I get from kaggle.<br>
 First dataset providing spoken text lines during the show for all characters. There are 5 attributes:
-index, character, line, season, episode_number. 
+<ul>
+  <li>index</li>
+  <li>character</li>
+  <li>line</li>
+  <li>season</li>
+  <li>episode_number</li>
+</ul>
 While working with this dataset I have found that some eposides have been missing, but amount of the lost episodes is small enough for continue working with this dataset.
 Second dataset gibe us more general information, such as title of the episode, director, writers, original air date. The attributes for this dataset are:
 season, episode number of season, episode number in series, title of the episode, director, writers, original air date, production coded, US viewers on orignal air date
